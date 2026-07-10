@@ -99,6 +99,13 @@ to set the size of the figure as a percentage of the text width (in this case it
 You can also specify an absolute width with \texttt{width=4cm}, but usually a relative size is fine.
 Sometimes (very rarely, in my experience) you may want to set the size on the basis of the height of the figure, i.e., \texttt{height=4cm}.
 
+If you have long inline verbatim text and you need to split the text, use \texttt{\textbackslash{}seqsplit}. Notice the difference:
+
+\begin{itemize}
+\item using \texttt{\textbackslash{}seqsplit} : \texttt{\seqsplit{long\_function\_name\_within\_\_the\_texttt\_command\_that\_usually\_does\_not\_split\_at\_the\_end\_of\_the\_line}}.
+\item without using \texttt{\textbackslash{}seqsplit} : \texttt{long\_function\_name\_within\_\_the\_texttt\_command\_that\_usually\_does\_not\_split\_at\_the\_end\_of\_the\_line}.
+\end{itemize}
+
 The label \textbf{must go inside the caption}, otherwise sometimes \LaTeX\ does not handle the references correctly.
 
 Every figure, table, listing or equation must be referenced and properly described in the text.

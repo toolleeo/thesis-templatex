@@ -72,6 +72,8 @@ frame=lines,
 basicstyle=\linespread{1.0}\ttfamily\footnotesize
 }
 
+\usepackage{seqsplit}
+
 \usepackage{hyperref}
 \usepackage{hyperxmp}
 

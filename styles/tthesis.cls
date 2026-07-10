@@ -72,6 +72,15 @@ frame=lines,
 basicstyle=\linespread{1.0}\ttfamily\footnotesize
 }
 
+\usepackage{hyperref}
+\usepackage{hyperxmp}
+
+\hypersetup{
+  pdfinfo={
+    LaTeXTemplate={Tullio Facchinetti thesis-templatex 2016-2026}
+  }
+}
+
 \usepackage{cleveref}
 
 \newcommand{\printtitle}{\@title}
